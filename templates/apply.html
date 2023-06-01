@@ -1,4 +1,10 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>집 등록하기</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>자취방 등록하기</title><style>
+    @font-face {
+    font-family: 'TTWanjudaedunsancheB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+        }
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -19,6 +25,7 @@ body {
 		margin: 2em auto;
 		max-width: 900px;
 		color: rgb(55, 53, 47);
+        font-family: 'TTWanjudaedunsancheB';
 	}
 }
 
@@ -48,6 +55,7 @@ h3 {
 }
 
 .page-title {
+    font-family: 'TTWanjudaedunsancheB';
 	font-size: 2.5rem;
 	font-weight: 700;
 	margin-top: 0;
@@ -55,16 +63,19 @@ h3 {
 }
 
 h1 {
+    font-family: 'TTWanjudaedunsancheB';
 	font-size: 1.875rem;
 	margin-top: 1.875rem;
 }
 
 h2 {
+    font-family: 'TTWanjudaedunsancheB';
 	font-size: 1.5rem;
 	margin-top: 1.5rem;
 }
 
 h3 {
+    font-family: 'TTWanjudaedunsancheB';
 	font-size: 1.25rem;
 	margin-top: 1.25rem;
 }
@@ -147,6 +158,7 @@ img {
 }
 
 .table_of_contents-item {
+    font-family: 'TTWanjudaedunsancheB';
 	display: block;
 	font-size: 0.875rem;
 	line-height: 1.3;
@@ -185,6 +197,7 @@ table {
 
 th,
 td {
+    font-family: 'TTWanjudaedunsancheB';
 	font-weight: normal;
 	padding: 0.25em 0.5em;
 	line-height: 1.5;
@@ -666,4 +679,75 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head><body><article id="a65338fd-9c38-4052-a6db-7d205bcff5bb" class="page sans"><header><h1 class="page-title">집 등록하기</h1></header><div class="page-body"><p id="f0af4880-208a-4978-b6f9-3f6d258f0ba3" class="">아무거나</p></div></article></body></html>
+<style>
+    body {
+        background-color: brown;
+        font-family: 'TTWanjudaedunsancheB';
+    }
+
+    h1 {
+        font-family: 'TTWanjudaedunsancheB';
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-family: 'TTWanjudaedunsancheB';
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    textarea {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-family: 'TTWanjudaedunsancheB';
+    }
+
+    input[type="checkbox"] {
+        margin-right: 5px;
+        font-family: 'TTWanjudaedunsancheB';
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        font-family: 'TTWanjudaedunsancheB';
+        cursor: pointer;
+    }
+
+    button:hover {
+        font-family: 'TTWanjudaedunsancheB';
+        background-color: #45a049;
+    }
+    
+    label {
+      font-family: 'TTWanjudaedunsancheB';
+      font-size: 18px; /* 글자 크기 설정 */
+      color: brown; /* 글자 색상 설정 */
+      font-weight: bold; /* 글자 굵기 설정 */
+    }
+
+</style>
+    </head><body><article id="a65338fd-9c38-4052-a6db-7d205bcff5bb" class="page sans"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%"/><h1 class="page-title">🏡자취방 등록하기🏡</h1>
+    </header><div class="page-body"><p>자취방 등록을 위해 아래 양식을 채워주세요.</p>
+        <form action="/applyphoto" method="get">
+            <input type="text" placeholder="위치를 입력하세요" required name="location">
+            <label>
+                <input type="checkbox" name="clean" value="clean">
+                월세라면 체크해주세요.
+            </label>
+            <textarea name="built" placeholder="세부 정보를 입력해주세요" cols="45" rows="4" required></textarea>
+            <button>사진 이어서 입력하기</button>
+        </form>
+    </div>
+</article>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>사진 업로드 하기</title>
+    <style>
+        @font-face {
+            font-family: 'TTWanjudaedunsancheB';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+        }
+        body {
+            background-color: #f2f2f2;
+            font-family: 'TTWanjudaedunsancheB';
+            font-size: 32px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .page-title {
+            font-size: 32px;
+            margin: 10px 0;
+        }
+        
+        .page-description {
+            font-size: 16px;
+            color: #777;
+        }
+        
+        .page-body {
+            margin-top: 20px;
+        }
+        
+        input[type="file"] {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .page-cover-image {
+            display: block;
+            max-width: 400px;
+            height: 400px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <article id="d36bc36c-0218-4e45-a9ef-083a34d0bc00" class="page sans">
+        <header>
+            <img class="page-cover-image" src="https://images.unsplash.com/photo-1564078516393-cf04bd966897?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" alt="Cover Image"/>
+            <h1 class="page-title">📸사진 업로드📸</h1>
+            <p class="page-description"></p>
+        </header>
+        <div class="page-body">
+            <p id="bbb744f6-e80b-4b6b-ac3e-8c68356a0cc7" class="">자취방 사진을 업로드해주세요.</p>
+            <form method="POST" enctype="multipart/form-data" action="{{ url_for('upload_done') }}">
+                <input type="file" name="file">
+                <input type="submit">
+            </form>
+        </div>
+    </article>
+</body>
+</html>
