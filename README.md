@@ -10,4 +10,4 @@ Visit this webpage and register your room!
 
 This website will be provided with room information for ONLY you.
 
-Visit [http://comparehouse.run.goorm.io/]() to register your room!
+Visit [http://comparehouse.run.goorm.io/](http://comparehouse.run.goorm.io/) to register your room!
