@@ -18,7 +18,9 @@ Visit [http://comparehouse.run.goorm.io/](http://comparehouse.run.goorm.io/) to 
 
 사용방법:
 1.[http://comparehouse.run.goorm.io/]()에 접속한다.
+
 2.원하는 자취방 매물들을 자취방 등록하기 기능을 통해 양식에 맞게 등록한다.
+
 3.여러 등록한 자취방 매물들을 자취방 목록보기 기능을 통해 한 눈에 본다.
 
 연락처:
