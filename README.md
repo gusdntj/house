@@ -13,6 +13,7 @@ This website will be provided with room information for ONLY you.
 Visit [http://comparehouse.run.goorm.io/](http://comparehouse.run.goorm.io/) to register your room!
 
 ['나만의 자취방' 사용자 가이드]
+
 소개:
 나만의 자취방 프로젝트는 사용자가 맘에 드는 사용자가 맘에 드는 집들을 등록시켜 놓고 등록된 집들을 한꺼번에 골라 볼 수 있는 웹사이트입니다.
 
@@ -29,6 +30,7 @@ gusdntj@gmail.com
 
 
 ['나만의 자취방' 개발자 가이드]
+
 소개:
 나만의 자취방 프로젝트는 사용자가 맘에 드는 사용자가 맘에 드는 집들을 등록시켜 놓고 등록된 집들을 한꺼번에 골라 볼 수 있는 웹사이트입니다.
 이 개발자 가이드는 프로젝트를 개발하고 기여하는 개발자들을 위한 정보와 지침을 제공합니다.
